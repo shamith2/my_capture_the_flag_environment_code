@@ -1,3 +1,7 @@
+''' complete Fighter policy
+    aggr agents capture emnemy agents by going into their territory
+    def agents guard flag and capture any enemy agents close to it
+'''    
 import numpy as np
 from policy.policy import Policy
 from gym_cap.envs.const import *
